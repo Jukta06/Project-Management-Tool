@@ -1,6 +1,6 @@
 # Project Management Tool
 
-A full-stack collaborative project management tool similar to Trello/Asana with real-time updates using WebSockets.
+A full-stack collaborative project management tool real-time updates using WebSockets.
 
 ## 🚀 Features
 
