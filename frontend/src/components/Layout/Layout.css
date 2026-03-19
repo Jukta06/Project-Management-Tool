@@ -1,0 +1,27 @@
+/* Layout Styles */
+.layout-container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fffaf4 0%, #fff7ee 100%);
+}
+
+.layout-content {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.15rem;
+  margin-left: 16rem;
+  margin-top: 4rem;
+}
+
+.main-content > * {
+  max-width: 1480px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}
